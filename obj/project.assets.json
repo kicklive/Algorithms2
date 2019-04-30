@@ -688,33 +688,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kicklive\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/dpmac/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Algorithms2\\Algorithms2.csproj",
+      "projectUniqueName": "/Users/dpmac/Algorithms2/Algorithms2.csproj",
       "projectName": "Algorithms2",
-      "projectPath": "C:\\Algorithms2\\Algorithms2.csproj",
-      "packagesPath": "C:\\Users\\kicklive\\.nuget\\packages\\",
-      "outputPath": "C:\\Algorithms2\\obj\\",
+      "projectPath": "/Users/dpmac/Algorithms2/Algorithms2.csproj",
+      "packagesPath": "/Users/dpmac/.nuget/packages/",
+      "outputPath": "/Users/dpmac/Algorithms2/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kicklive\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/dpmac/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -732,6 +727,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
